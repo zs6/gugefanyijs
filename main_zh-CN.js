@@ -113,7 +113,7 @@
         }
         if (g._cjlc) g._cjlc(g._pas + g._pah + A);
         else {
-            var C ='https://news.yujianweb.cn/js/translate/element_main.js',
+            var C ='https://cdn.jsdelivr.net/gh/zs6/gugefanyijs@1.9/element_main.js',
             D = document.createElement("script");
             D.type = "text/javascript";
             D.charset = "UTF-8";
