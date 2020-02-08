@@ -1,4 +1,14 @@
-(function() {
+(
+    function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+            autoDisplay: true,
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            multilanguagePage: true,
+            pageLanguage: 'auto',
+            includedLanguages: 'zh-CN,zh-TW'
+            }, 'google_translate_element');
+        }
+    function() {
     var gtConstEvalStartTime = new Date();
     function d(b) {
         var a = document.getElementsByTagName("head")[0];
